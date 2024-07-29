@@ -1,11 +1,11 @@
 {
+  "homepage": "http://gitOfZgn.github.io",
   "name": "zgn-portfolio",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "build": "next build",
-    "deploy": "next build && next export && touch out/.nojekyll && gh-pages -d out",
     "dev": "next dev",
+    "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
@@ -17,6 +17,7 @@
     "next": "14.2.5",
     "react": "^18",
     "react-dom": "^18",
+    "react-tooltip": "^5.27.1",
     "tailwind-merge": "^2.4.0",
     "tailwindcss-animate": "^1.0.7"
   },
@@ -26,7 +27,6 @@
     "@types/react-dom": "^18",
     "eslint": "^8",
     "eslint-config-next": "14.2.5",
-    "gh-pages": "^6.1.1",
     "postcss": "^8",
     "tailwindcss": "^3.4.1",
     "typescript": "^5"
