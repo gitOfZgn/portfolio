@@ -25,7 +25,7 @@ const Gallery  = () => {
                                     {work.date && <p className="text-sm text-gray-600 mb-2">{work.date}</p>}
                                     <p className="text-sm text-gray-700">{work.description}</p>
                                 </div>
-                                <div className="mt-4 h-20">
+                                <div className="mt-4 h-30">
                                     <h4 className="font-semibold text-sm mb-2">使用技術：</h4>
                                     <div className="flex flex-wrap gap-2">
                                         {work.skills.map((skill, index) => {
