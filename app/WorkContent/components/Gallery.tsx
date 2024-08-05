@@ -4,7 +4,7 @@ import Image from 'next/image'
 import { works, Work } from '@/data/works'
 import { getCategoryColor, getSkillCategory } from '@/data/skillsData'
 
-const Gallery: React.FC = () => {
+const Gallery  = () => {
     return (
         <div className="max-w-4xl mx-auto px-4">
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">

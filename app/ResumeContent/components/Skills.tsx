@@ -1,3 +1,5 @@
+"use client"
+
 import React, { useEffect, useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { IconDefinition } from '@fortawesome/fontawesome-svg-core';
@@ -45,7 +47,7 @@ const SkillCard: React.FC<Skill> = ({ name, icon, proficiency, category }) => {
     );
 };
 
-const ProficiencyLegend: React.FC = () => {
+const ProficiencyLegend = () => {
     const [animate, setAnimate] = useState(false);
 
     useEffect(() => {
@@ -89,7 +91,7 @@ const ProficiencyLegend: React.FC = () => {
     );
 };
 
-const SkillsSection: React.FC = () => {
+const SkillsSection = () => {
     return (
         <div className="max-w-4xl container mx-auto px-4">
             <h2 className="text-3xl font-bold mb-6">Skills</h2>
