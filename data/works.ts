@@ -28,7 +28,7 @@ export const works: Work[] = [
         description: '会員制情報共有サイトの設計・開発・運用',
         thumbnailUrl: '/portfolio/images/thumbnails/lmffrmembership.png',
         fullImageUrl: '/portfolio/images/thumbnails/lmffrmembership_detail.png',
-        skills: ["Next.js", "React", "TypeScript", "tailwind", "HTML/CSS", "Supabase", "GCP", "PostgreSQL","Github","Vercel"],
+        skills: ["Next.js", "React", "TypeScript", "tailwind", "HTML/CSS", "Supabase", "GCP", "PostgreSQL","Github","Vercel","stripe"],
         date: '2022-',
         role: 'フルスタック開発者（Supabase活用）',
         duration: '2ヶ月（実総工数） + 継続的な改善（保守）',
@@ -56,7 +56,7 @@ export const works: Work[] = [
             'ログイン認証（google oauth）',
             '画像編集、アップロード機能',
             '高速なデータべース検索機能',
-            '容易な作業フローを実現するUI'
+            'stripe決済連携（現在は休止）'
         ],
     },
     {
