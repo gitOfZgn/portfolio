@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { IconDefinition } from '@fortawesome/fontawesome-svg-core';
 import { skills, Skill, getCategoryColor, proficiencyLevels } from '@/data/skillsData';
 
-const SkillCard: React.FC<Skill> = ({ name, icon, proficiency, category }) => {
+const SkillCard = ({ name, icon, proficiency, category }: Skill) => {
     const [animate, setAnimate] = useState(false);
 
     useEffect(() => {

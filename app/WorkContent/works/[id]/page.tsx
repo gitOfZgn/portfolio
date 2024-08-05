@@ -13,7 +13,7 @@ export async function generateStaticParams() {
     }));
 }
 
-const WorkPage: React.FC<WorkPageProps> = ({ params }) => {
+const WorkPage = ({ params }: WorkPageProps) => {
     const work = works.find(w => w.id === params.id);
 
     if (!work) {
