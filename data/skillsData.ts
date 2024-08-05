@@ -46,7 +46,7 @@ export const categoryColors: { [key in SkillCategory]: string } = {
 
 export const skills: Skill[] = [
     { name: 'React', icon: faReact, proficiency: 85, category: SkillCategory.Frameworks },
-    { name: 'Flask', icon: svgFlask, proficiency: 50, category: SkillCategory.Frameworks },
+    { name: 'Flask', icon: svgFlask, proficiency: 30, category: SkillCategory.Frameworks },
     { name: 'Next.js', icon: svgNextjs, proficiency: 85, category: SkillCategory.Frameworks },
     { name: 'Python', icon: faPython, proficiency: 75, category: SkillCategory.Languages },
     { name: 'JavaScript', icon: faJs, proficiency: 85, category: SkillCategory.Languages },
