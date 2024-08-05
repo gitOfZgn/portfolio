@@ -16,7 +16,7 @@ const vr = Varela_Round({
 });
 
 export const metadata = {
-  title: 'Your Name - Portfolio',
+  title: 'ZGN - Portfolio',
   description: 'A showcase of my work and skills',
 }
 

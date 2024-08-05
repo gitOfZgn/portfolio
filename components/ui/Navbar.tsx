@@ -1,11 +1,10 @@
 "use client"
 import { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFileLines, faBookOpen, faEllipsisH } from '@fortawesome/free-solid-svg-icons';
+import { faFileLines, faGlobe } from '@fortawesome/free-solid-svg-icons';
 import { IconDefinition } from '@fortawesome/fontawesome-svg-core';
-import Timeline from '@/components/ui/Timeline';
-import ResumeContent from './ResumeContent/page';
-import WorksContent from './WorkContent/page';
+import ResumeContent from '@/app/ResumeContent/page';
+import WorksContent from '@/app/WorkContent/page';
 
 interface NavItemProps {
     icon: IconDefinition;
@@ -30,7 +29,7 @@ const Navbar = () => {
 
     const navItems = [
         { icon: faFileLines, label: 'Resume' },
-        { icon: faBookOpen, label: 'Works' },
+        { icon: faGlobe, label: 'MyApp.' },
         // { icon: faEllipsisH, label: 'More' },
     ];
 
@@ -49,7 +48,7 @@ const Navbar = () => {
             </nav>
             <div>
                 {activeTab === 'Resume' && <ResumeContent />}
-                {activeTab === 'Works' && <WorksContent />}
+                {activeTab === 'MyApp.' && <WorksContent />}
                 {/* {activeTab === 'More' && <MoreContent />} */}
             </div>
         </div>

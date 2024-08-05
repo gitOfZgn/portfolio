@@ -1,5 +1,5 @@
-import Gallery from '@/components/ui/Gallery'
 import React from 'react'
+import Gallery from './components/Gallery'
 
 const WorksContent = () => {
   return (

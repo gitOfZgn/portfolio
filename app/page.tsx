@@ -1,6 +1,6 @@
 import React from 'react'
-import Navbar from './Navbar'
-import ProfilePage from '@/components/ui/Profile'
+import ProfilePage from './ResumeContent/components/Profile'
+import Navbar from '@/components/ui/Navbar'
 
 const page = () => {
   return (

@@ -1,4 +1,3 @@
-// components/Timeline.tsx
 import React from 'react';
 
 interface TimelineEvent {
@@ -14,24 +13,26 @@ const events: TimelineEvent[] = [
         id: '1',
         startDate: '',
         endDate: '2019',
-        title: '大学卒業',
-        description: '',
+        title: '中央大学経営システム工学科卒業',
+        description: '最適化問題や製品開発のための実験計画、データ解析、工程設計を学ぶ。',
     },
     {
         id: '2',
         startDate: '2019',
-        endDate: '2022',
+        endDate: '2021',
         title: '某IT企業システム開発',
-        description: '2021年',
+        description: '金融・証券分野でのシステム開発およびインフラ業界でのプロジェクトリーダーシップとマネジメントを経験。プロジェクトの計画から実行、監視、終了までを一貫して管理し、保守プロジェクトでは納期遵守率100%を達成。上流工程の要点定義やシステム設計など、各フェーズの要求仕様を明確にする役割も担当。2021年には、実績とリーダーシップを認められ主任に昇格。',
     },
     {
         id: '3',
         startDate: '2022',
         endDate: '',
         title: 'フリーランスエンジニアとして開発',
-        description: '',
+        description: '祖母の介護のためフリーランスとなり、リモート開発をメインとする。クラウドソーシングやDMを通じて案件を獲得し、中小企業のクラウド移行支援やウェブ開発、自動化等の案件を行う。併行して自身のウェブサービスを2種類リリースする。',
     },
 ];
+
+
 
 const Timeline = () => {
     return (
