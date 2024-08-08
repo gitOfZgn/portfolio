@@ -7,6 +7,7 @@ export interface Work {
     skills: string[];
     date?: string;
     role?: string;
+    url?: string;
     duration?: string;
     challenges?: string[];
     solutions?: string[];
@@ -26,10 +27,11 @@ export const works: Work[] = [
         id: '1',
         title: '某ソーシャルゲーム会員制情報共有サイト',
         description: '会員制ユーザー投稿型情報共有サイトの設計・開発・運用',
+        url: 'https://lmf-fr-membership-app.vercel.app/',
         thumbnailUrl: '/portfolio/images/thumbnails/lmffrmembership.png',
         fullImageUrl: '/portfolio/images/thumbnails/lmffrmembership_detail.png',
         skills: ["Next.js", "React", "TypeScript", "tailwind", "HTML/CSS", "Supabase", "GCP", "PostgreSQL","Github","Vercel","stripe"],
-        date: '2022-',
+        date: '2021-',
         role: 'フルスタック開発者（Supabase活用）',
         duration: '2ヶ月（実総工数） + 継続的な改善（保守）',
         // challenges: [
@@ -63,10 +65,11 @@ export const works: Work[] = [
         id: '2',
         title: '某ソーシャルゲーム攻略ツール',
         description: 'パラメータ上昇要素の特定ツール',
+        url: 'https://lmfzgn.pythonanywhere.com/',
         thumbnailUrl: '/portfolio/images/thumbnails/genecalc.png',
         fullImageUrl: '/portfolio/images/thumbnails/genecalc_detail.png',
         skills: ["Python", "Flask", "HTML/CSS"],
-        date: '2022-',
+        date: '2021-',
         role: 'フルスタック開発者（pythonanywhere活用）',
         duration: '1ヶ月（実総工数） + 継続的な改善',
         // challenges: [

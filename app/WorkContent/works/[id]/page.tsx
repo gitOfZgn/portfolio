@@ -58,6 +58,19 @@ const WorkPage = ({ params }: WorkPageProps) => {
                     <p className="text-gray-600"><strong>期間:</strong> {work.date}</p>
                     {work.role && <p className="text-gray-600"><strong>役割:</strong> {work.role}</p>}
                     {work.duration && <p className="text-gray-600"><strong>プロジェクト期間:</strong> {work.duration}</p>}
+                    {work.url && (
+                        <p className="text-gray-600">
+                            <strong>URL:</strong>{' '}
+                            <a
+                                href={work.url}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="text-blue-500 hover:text-blue-700 underline"
+                            >
+                                {work.url}
+                            </a>
+                        </p>
+                    )}
                 </div>
                 {work.keyFeatures && (
                     <div className="bg-slate-100 p-6 rounded-lg shadow-md">

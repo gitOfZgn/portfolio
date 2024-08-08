@@ -1,5 +1,5 @@
 import { IconDefinition } from '@fortawesome/fontawesome-svg-core';
-import { faReact, faPython, faJs, faGithub, faAws, faStripe } from '@fortawesome/free-brands-svg-icons';
+import { faReact, faPython, faJs, faGithub, faAws, faStripe, faJava } from '@fortawesome/free-brands-svg-icons';
 import { faDatabase, faBolt, faCode } from '@fortawesome/free-solid-svg-icons';
 
 // SVGRを使用してSVGをインポート
@@ -55,6 +55,7 @@ export const skills: Skill[] = [
     { name: 'Tailwind', icon: svgTailwind, proficiency: 85, category: SkillCategory.Languages },
     { name: 'Delphi', icon: svgDelphi, proficiency: 80, category: SkillCategory.Languages },
     { name: 'C#', icon: svgCSharp, proficiency: 50, category: SkillCategory.Languages },
+    { name: 'java', icon: faJava, proficiency: 25, category: SkillCategory.Languages },
     { name: 'PL/SQL', icon: svgPLSQL, proficiency: 80, category: SkillCategory.Languages },
     { name: 'AWS', icon: faAws, proficiency: 50, category: SkillCategory.Cloud },
     { name: 'Supabase', icon: faBolt, proficiency: 85, category: SkillCategory.Cloud },
