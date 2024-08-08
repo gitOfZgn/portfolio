@@ -31,9 +31,9 @@ export const works: Work[] = [
         thumbnailUrl: '/portfolio/images/thumbnails/lmffrmembership.png',
         fullImageUrl: '/portfolio/images/thumbnails/lmffrmembership_detail.png',
         skills: ["Next.js", "React", "TypeScript", "tailwind", "HTML/CSS", "Supabase", "GCP", "PostgreSQL","Github","Vercel","stripe"],
-        date: '2021-',
+        // date: '2021-',
         role: 'フルスタック開発者（Supabase活用）',
-        duration: '2ヶ月（実総工数） + 継続的な改善（保守）',
+        // duration: '2ヶ月（実総工数） + 継続的な改善（保守）',
         // challenges: [
         //     'スプレッドシート運用からの移行',
         //     'スケーラブルなアーキテクチャの設計',
@@ -69,9 +69,9 @@ export const works: Work[] = [
         thumbnailUrl: '/portfolio/images/thumbnails/genecalc.png',
         fullImageUrl: '/portfolio/images/thumbnails/genecalc_detail.png',
         skills: ["Python", "Flask", "HTML/CSS"],
-        date: '2021-',
+        // date: '2021-',
         role: 'フルスタック開発者（pythonanywhere活用）',
-        duration: '1ヶ月（実総工数） + 継続的な改善',
+        // duration: '1ヶ月（実総工数） + 継続的な改善',
         // challenges: [
         //     'リアルタイムデータ同期の実装',
         //     'スケーラブルなアーキテクチャの設計',

@@ -20,8 +20,8 @@ const ProfilePage = () => {
                 </h1>
                 <p className="pt-1 text-xs text-gray-600">ゼニア</p>
                 <p className="pt-3 text-xs text-gray-950">エンジニア歴7年。<br />
-                    4年間IT企業に勤め、そこから現在に至るまではフリーランスエンジニア<br />
-                    趣味はお菓子作り、ビリヤード、洋ドラ鑑賞（Suits3周）
+                    4年間IT企業に勤め、現在はフリーランスエンジニア<br />
+                    趣味はお菓子作り、効率化、ビリヤード、洋ドラ鑑賞（Suits3周）
                 </p>
                 <div className="mt-4 flex justify-center">
                     <a href="https://github.com/gitOfZgn" className="text-gray-500">
