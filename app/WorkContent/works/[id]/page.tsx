@@ -55,7 +55,7 @@ const WorkPage = ({ params }: WorkPageProps) => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
                 <div className="bg-slate-100 p-6 rounded-lg shadow-md">
                     <h2 className="text-2xl font-bold mb-4">プロジェクト詳細</h2>
-                    <p className="text-gray-600"><strong>期間:</strong> {work.date}</p>
+                    {/* <p className="text-gray-600"><strong>期間:</strong> {work.date}</p> */}
                     {work.role && <p className="text-gray-600"><strong>役割:</strong> {work.role}</p>}
                     {work.duration && <p className="text-gray-600"><strong>プロジェクト期間:</strong> {work.duration}</p>}
                     {work.url && (

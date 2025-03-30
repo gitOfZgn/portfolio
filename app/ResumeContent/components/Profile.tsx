@@ -19,7 +19,7 @@ const ProfilePage = () => {
                     ZGN
                 </h1>
                 <p className="pt-1 text-xs text-gray-600">ゼニア</p>
-                <p className="pt-3 text-xs text-gray-950">エンジニア歴7年。<br />
+                <p className="pt-3 text-xs text-gray-950">
                     4年間IT企業に勤め、現在はフリーランスエンジニア<br />
                     趣味はお菓子作り、効率化、ビリヤード、洋ドラ鑑賞（Suits3周）
                 </p>
